@@ -1,0 +1,187 @@
+/**
+ * This class decribes a single candidate in the Employ Fast Module.
+ * The attributes descrbe the email, password, name, date of birth, address, nationality, gender, allergies,
+ * food preference, qualifications, work experience, occupations, computer skills, languageSpoken of a candidate.
+ */
+public class Candidate {
+    // fields for Candidate class
+    private String CandidateEmail;
+    private String CandidatePassword;
+    private String candidateName;
+    private String dateOfBirth;
+    private String address;
+    private String nationality;
+    private String identificationNumber;
+    private String gender;
+    private ArrayList<String> allergie;
+    private ArrayList<String> foodPreference;
+    private ArrayList<String> candidateQualification;
+    private int workExperience;
+    private ArrayList<String> occupation;
+    private ArrayList<String> computerSkill;
+    private ArrayList<String> languageSpoken;
+    private String healthRecord;
+    private String criminalRecord;
+
+    /**
+     * Non-Default Constructor
+     */
+    public Candidate(String candidateEmail, String candidatePassword, String candidateName, String dateOfBirth,
+                     String address, String nationality, String identificationNumber, String gender, ArrayList<String> allergie,
+                     ArrayList<String> foodPreference, ArrayList<String> candidateQualification, int workExperience, ArrayList<String> occupation,
+                     ArrayList<String> computerSkill, ArrayList<String> languageSpoken, String healthRecord, String criminalRecord) {
+        CandidateEmail = candidateEmail;
+        CandidatePassword = candidatePassword;
+        this.candidateName = candidateName;
+        this.dateOfBirth = dateOfBirth;
+        this.address = address;
+        this.nationality = nationality;
+        this.identificationNumber = identificationNumber;
+        this.gender = gender;
+        this.allergie = allergie;
+        this.foodPreference = foodPreference;
+        this.candidateQualification = candidateQualification;
+        this.workExperience = workExperience;
+        this.occupation = occupation;
+        this.computerSkill = computerSkill;
+        this.languageSpoken = languageSpoken;
+        this.healthRecord = healthRecord;
+        this.criminalRecord = criminalRecord;
+    }
+
+    public String getCandidateEmail() {
+        return CandidateEmail;
+    }
+
+    public void setCandidateEmail(String candidateEmail) {
+        CandidateEmail = candidateEmail;
+    }
+
+    public String getCandidatePassword() {
+        return CandidatePassword;
+    }
+
+    public void setCandidatePassword(String candidatePassword) {
+        CandidatePassword = candidatePassword;
+    }
+
+    public String getCandidateName() {
+        return candidateName;
+    }
+
+    public void setCandidateName(String candidateName) {
+        this.candidateName = candidateName;
+    }
+
+    public String getDateOfBirth() {
+        return dateOfBirth;
+    }
+
+    public void setDateOfBirth(String dateOfBirth) {
+        this.dateOfBirth = dateOfBirth;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getNationality() {
+        return nationality;
+    }
+
+    public void setNationality(String nationality) {
+        this.nationality = nationality;
+    }
+
+    public String getIdentificationNumber() {
+        return identificationNumber;
+    }
+
+    public void setIdentificationNumber(String identificationNumber) {
+        this.identificationNumber = identificationNumber;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public ArrayList<String> getAllergie() {
+        return allergie;
+    }
+
+    public void setAllergie(ArrayList<String> allergie) {
+        this.allergie = allergie;
+    }
+
+    public ArrayList<String> getFoodPreference() {
+        return foodPreference;
+    }
+
+    public void setFoodPreference(ArrayList<String> foodPreference) {
+        this.foodPreference = foodPreference;
+    }
+
+    public ArrayList<String> getQualification() {
+        return qualification;
+    }
+
+    public void setQualification(ArrayList<String> qualification) {
+        this.qualification = qualification;
+    }
+
+    public int getWorkExperience() {
+        return workExperience;
+    }
+
+    public void setWorkExperience(int workExperience) {
+        this.workExperience = workExperience;
+    }
+
+    public ArrayList<String> getOccupation() {
+        return occupation;
+    }
+
+    public void setOccupation(ArrayList<String> occupation) {
+        this.occupation = occupation;
+    }
+
+    public ArrayList<String> getComputerSkill() {
+        return computerSkill;
+    }
+
+    public void setComputerSkill(ArrayList<String> computerSkill) {
+        this.computerSkill = computerSkill;
+    }
+
+    public ArrayList<String> getLanguageSpoken() {
+        return languageSpoken;
+    }
+
+    public void setLanguageSpoken(ArrayList<String> languageSpoken) {
+        this.languageSpoken = languageSpoken;
+    }
+
+    public String getHealthRecord() {
+        return healthRecord;
+    }
+
+    public void setHealthRecord(String healthRecord) {
+        this.healthRecord = healthRecord;
+    }
+
+    public String getCriminalRecord() {
+        return criminalRecord;
+    }
+
+    public void setCriminalRecord(String criminalRecord) {
+        this.criminalRecord = criminalRecord;
+    }
+}

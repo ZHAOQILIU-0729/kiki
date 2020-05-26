@@ -1,0 +1,30 @@
+/**
+ * This class decribes a single coordinator in the Employ Fast Module.
+ * The attributes descrbe the email and password of a coordinator.
+ */
+public class Coordinator {
+    // fields for coordinator class
+    private String CoordinatorEmail;
+    private String CoordinatorPassword;
+
+    public Coordinator(String coordinatorEmail, String coordinatorPassword) {
+        CoordinatorEmail = coordinatorEmail;
+        CoordinatorPassword = coordinatorPassword;
+    }
+
+    public String getCoordinatorEmail() {
+        return CoordinatorEmail;
+    }
+
+    public void setCoordinatorEmail(String coordinatorEmail) {
+        CoordinatorEmail = coordinatorEmail;
+    }
+
+    public String getCoordinatorPassword() {
+        return CoordinatorPassword;
+    }
+
+    public void setCoordinatorPassword(String coordinatorPassword) {
+        CoordinatorPassword = coordinatorPassword;
+    }
+}

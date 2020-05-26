@@ -1,0 +1,93 @@
+/**
+ * This class decribes the criteria for candidate selection in the Employ Fast Module.
+ * The attributes descrbe the each of the criteria, which are candidate's range of age, qulification, year of working experience,
+ * occupation, health record, criminal record, compputer skill, and language spoken.
+ */
+
+public class SelectionCriteria {
+    private int[] rangeOfAge;
+    private String qualificationCriteria;
+    private int yearOfWorkExperience;
+    private String occupationCriteria;
+    private String healthRecordCriteria;
+    private String criminalRecordCriteria;
+    private ArrayList<String> computerSkillCriteria;
+    private ArrayList<String> languageSpokenCriteria;
+
+    public SelectionCriteria(int[] rangeOfAge, String qualificationCriteria, int yearOfWorkExperience, String occupationCriteria,
+                             String healthRecordCriteria, String criminalRecordCriteria, ArrayList<String> computerSkillCriteria,
+                             ArrayList<String> languageSpokenCriteria) {
+        this.rangeOfAge = rangeOfAge;
+        this.qualificationCriteria = qualificationCriteria;
+        this.yearOfWorkExperience = yearOfWorkExperience;
+        this.occupationCriteria = occupationCriteria;
+        this.healthRecordCriteria = healthRecordCriteria;
+        this.criminalRecordCriteria = criminalRecordCriteria;
+        this.computerSkillCriteria = computerSkillCriteria;
+        this.languageSpokenCriteria = languageSpokenCriteria;
+    }
+
+    public int[] getRangeOfAge() {
+        return rangeOfAge;
+    }
+
+    public void setRangeOfAge(int[] rangeOfAge) {
+        this.rangeOfAge = rangeOfAge;
+    }
+
+    public String getQualificationCriteria() {
+        return qualificationCriteria;
+    }
+
+    public void setQualificationCriteria(String qualificationCriteria) {
+        this.qualificationCriteria = qualificationCriteria;
+    }
+
+    public int getYearOfWorkExperience() {
+        return yearOfWorkExperience;
+    }
+
+    public void setYearOfWorkExperience(int yearOfWorkExperience) {
+        this.yearOfWorkExperience = yearOfWorkExperience;
+    }
+
+    public String getOccupationCriteria() {
+        return occupationCriteria;
+    }
+
+    public void setOccupationCriteria(String occupationCriteria) {
+        this.occupationCriteria = occupationCriteria;
+    }
+
+    public String getHealthRecordCriteria() {
+        return healthRecordCriteria;
+    }
+
+    public void setHealthRecordCriteria(String healthRecordCriteria) {
+        this.healthRecordCriteria = healthRecordCriteria;
+    }
+
+    public String getCriminalRecordCriteria() {
+        return criminalRecordCriteria;
+    }
+
+    public void setCriminalRecordCriteria(String criminalRecordCriteria) {
+        this.criminalRecordCriteria = criminalRecordCriteria;
+    }
+
+    public ArrayList<String> getComputerSkillCriteria() {
+        return computerSkillCriteria;
+    }
+
+    public void setComputerSkillCriteria(ArrayList<String> computerSkillCriteria) {
+        this.computerSkillCriteria = computerSkillCriteria;
+    }
+
+    public ArrayList<String> getLanguageSpokenCriteria() {
+        return languageSpokenCriteria;
+    }
+
+    public void setLanguageSpokenCriteria(ArrayList<String> languageSpokenCriteria) {
+        this.languageSpokenCriteria = languageSpokenCriteria;
+    }
+}

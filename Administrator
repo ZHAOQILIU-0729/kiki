@@ -1,0 +1,31 @@
+/**
+ * This class decribes a single administrator in the Employ Fast Module.
+ * The attributes descrbe the email and password of an administrator.
+ */
+public class Administrator
+{
+    // fields for administrator class
+    private String adminEmail;
+    private String adminPassword;
+
+    public Administrator(String adminEmail, String adminPassword) {
+        this.adminEmail = adminEmail;
+        this.adminPassword = adminPassword;
+    }
+
+    public String getAdminEmail() {
+        return adminEmail;
+    }
+
+    public void setAdminEmail(String adminEmail) {
+        this.adminEmail = adminEmail;
+    }
+
+    public String getAdminPassword() {
+        return adminPassword;
+    }
+
+    public void setAdminPassword(String adminPassword) {
+        this.adminPassword = adminPassword;
+    }
+}
